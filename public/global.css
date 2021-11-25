@@ -1,3 +1,6 @@
+:root {
+	--color-bg: green;
+}
 html, body {
 	position: relative;
 	width: 100%;

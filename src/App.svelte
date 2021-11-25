@@ -1,10 +1,16 @@
 <script lang="ts">
-	export let name: string;
+	import Section from './components/landing/section.svelte';
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
+	<h1>Hello Name</h1>
 	<p>Visit the <a href="https://svelte.dev/tutorial">Svelte tutorial</a> to learn how to build Svelte apps.</p>
+	<Section>
+		<h2>Label</h2>
+	</Section>
+	<Section>
+		<h2>Label</h2>
+	</Section>
 </main>
 
 <style>
